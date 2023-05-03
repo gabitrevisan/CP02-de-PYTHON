@@ -171,5 +171,4 @@ match menu:
 
 # Caso seja selecionado um menu inexistente
     case _:
-        print('')
         print('Opção inexistente!')
