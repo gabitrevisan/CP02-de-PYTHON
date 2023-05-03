@@ -168,3 +168,8 @@ match menu:
             else:
                 print('Opção inválida. Por favor, escolha uma opção válida (A, B ou C)')
             break
+
+# Caso seja selecionado um menu inexistente
+    case _:
+        print('')
+        print('Opção inexistente!')
